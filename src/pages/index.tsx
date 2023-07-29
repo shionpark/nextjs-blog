@@ -1,5 +1,12 @@
-import Image from "next/image";
+import type { NextPage } from "next";
+import Layout from "../components/layout";
 
-export default function Home() {
-  return null;
-}
+const Home: NextPage = () => {
+  return (
+    <Layout title="홈" hasTabBar>
+      <div>Home</div>
+    </Layout>
+  );
+};
+
+export default Home;
