@@ -12,16 +12,14 @@ const Container = (props: any) => {
       <header className="w-full max-w-3xl flex justify-between items-center my-1">
         <div className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/images/logo.png"
             alt="logo"
             width={40}
             height={40}
             objectFit="cover"
             className="rounded-full"
           />
-          <span className={`mx-2 font-extralight text-lg`}>
-            {metadata.title}
-          </span>
+          <span className={`mx-2 font-light text-lg`}>{metadata.title}</span>
         </div>
         <Nav />
       </header>
